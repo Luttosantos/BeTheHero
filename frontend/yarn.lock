@@ -1541,15 +1541,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/types@npm:^25.1.0":
-  version: 25.1.0
-  resolution: "@jest/types@npm:25.1.0"
+"@jest/types@npm:^25.2.0":
+  version: 25.2.0
+  resolution: "@jest/types@npm:25.2.0"
   dependencies:
     "@types/istanbul-lib-coverage": ^2.0.0
     "@types/istanbul-reports": ^1.1.1
     "@types/yargs": ^15.0.0
     chalk: ^3.0.0
-  checksum: e0f68cb370b48f05fbfb08aa5321b0eb5b2063db4a382cb047f8998fee1e39c19b54ab7745d32020e161e1af0055a2bc8ea3e23b6bc5e3e432bb97bae4f429c9
+  checksum: d32115dd58d9a84dd95ab5dbe1f4db1c684c0d1654e78b963dface0ff9de81788cfa2d2c0c4bf54bc3eb13e5b262e9ca9188e7d5be9c79df00ef6bfe8bff8539
   languageName: node
   linkType: hard
 
@@ -10901,14 +10901,14 @@ fsevents@^1.2.7:
   linkType: hard
 
 "pretty-format@npm:^25.1.0":
-  version: 25.1.0
-  resolution: "pretty-format@npm:25.1.0"
+  version: 25.2.0
+  resolution: "pretty-format@npm:25.2.0"
   dependencies:
-    "@jest/types": ^25.1.0
+    "@jest/types": ^25.2.0
     ansi-regex: ^5.0.0
     ansi-styles: ^4.0.0
     react-is: ^16.12.0
-  checksum: 7d4f659dc022265640b5ae9070534c99a9b0c8c27ab5d8292f10d8222c0f98501a209ef5ef380593bdfe3a9aaa852e81bfe400c19a908e08e751210da101c8b8
+  checksum: c42e45c5c45b22c16b5250ec845cd6a6301264aa1560daec6f38fd9a621669d275f0c81d4aab124c0be59d37a5fecb5494a062dfbf8967685b1f09b4ef021a40
   languageName: node
   linkType: hard
 
