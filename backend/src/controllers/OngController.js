@@ -1,12 +1,11 @@
-const connection = require('../database/connection')
+const express = require('express');
+const connection = require('../database/connections');
 const crypto = require('crypto');
-module.exports = {
-    async index(request, response) {
-        const ongs = await connection('ongs').select('*');
-        return response.jason(ongs);
-    },
 
-    async create(request, response) {
+
+module.exports = { 
+    
+    async create (request, response) {
         const { name, email, whatsapp, city, uf } = request.body;
         const id = crypto.randomBytes(4).toString('HEX');
 
@@ -16,8 +15,10 @@ module.exports = {
             email,
             whatsapp,
             city,
-            uf
+            uf,
         })
         return response.json({ id });
-    }
-};
+    },
+   
+    
+}

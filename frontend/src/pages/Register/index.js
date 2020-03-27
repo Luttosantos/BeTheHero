@@ -25,7 +25,7 @@ export default function Register(){
            uf,
        };
        try{
-       const response = await api.post('/ongs', data)
+       const response = await api.post('ongs', data)
        
        alert(`Seu Id de acesso: ${response.data.id}`)
        history.push('/');
@@ -55,7 +55,7 @@ export default function Register(){
                     />
                     <input 
                     type="email" 
-                    placeholder = 'E-mails'
+                    placeholder = 'E-mail'
                     value ={email}
                     onChange={e => setEmail(e.target.value)}
                     />
